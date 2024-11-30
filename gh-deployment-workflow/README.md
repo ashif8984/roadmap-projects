@@ -1,7 +1,7 @@
 ## GitHub Pages Deployment
 A simple GitHub Actions workflow to deploy a static website to GitHub Pages.
 
-Sample solution for [server performance stats](https://roadmap.sh/projects/github-actions-deployment-workflow)
+Sample solution for [GitHub Pages Deployment](https://roadmap.sh/projects/github-actions-deployment-workflow)
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 
