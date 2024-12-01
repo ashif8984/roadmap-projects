@@ -3,8 +3,13 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 on:
-  push:
-    branches: ["main"]
+
+  # Comment below lines: Stop automatic GA run
+  # Uncomment below lines: Start automatic GA run
+  # push:
+  #   branches: ["main"]
+
+  
   workflow_dispatch:
 
 permissions:
