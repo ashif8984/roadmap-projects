@@ -12,6 +12,9 @@ Sample solution for [Log Archival Tool](https://roadmap.sh/projects/log-archive-
 3. GitHub Pages Deployment
 Sample solution for [GitHub Pages Deployment](https://roadmap.sh/projects/github-actions-deployment-workflow)
 
+4. Basic Dockerfile
+Sample solution for [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
+
 
 ### Getting Started
 
