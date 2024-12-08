@@ -6,8 +6,8 @@ on:
 
   # Comment below lines: Stop automatic GA run
   # Uncomment below lines: Start automatic GA run
-  # push:
-  #   branches: ["main"]
+  push:
+    branches: ["main"]
 
   
   workflow_dispatch:
