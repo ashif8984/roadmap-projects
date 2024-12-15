@@ -15,6 +15,8 @@ Sample solution for [GitHub Pages Deployment](https://roadmap.sh/projects/github
 4. Basic Dockerfile
 Sample solution for [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
 
+4. Nginx Log Analyser
+Sample solution for [server performance stats](https://roadmap.sh/projects/nginx-log-analyser)
 
 ### Getting Started
 
