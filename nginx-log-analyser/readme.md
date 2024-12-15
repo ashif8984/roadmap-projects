@@ -1,7 +1,7 @@
 ## Nginx Log Analyser
 A bash script to analyze logs from the command line.
 
-Sample solution for [server performance stats](https://roadmap.sh/projects/nginx-log-analyser)
+Sample solution for [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 ### Steps to run the script in Linux server
