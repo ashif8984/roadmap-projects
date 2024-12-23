@@ -18,6 +18,10 @@ Sample solution for [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerf
 4. Nginx Log Analyser
 Sample solution for [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)
 
+5. SSH Remote Server Setup
+Sample solution for [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)
+
+
 ### Getting Started
 
 To explore a specific project:
