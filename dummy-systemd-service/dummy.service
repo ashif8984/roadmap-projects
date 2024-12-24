@@ -1,0 +1,14 @@
+[Unit]
+Description= Dummy Script (dummy.sh) running at the bg as bg process
+After=network.target
+
+[Service]
+User=ashifkey
+Group=ashifkey
+WorkingDirectory=/home/ashifkey/
+Environment="PATH=/home/ashifkey/"
+ExecStart=/home/ashifkey/dummy.sh
+
+
+[Install]
+WantedBy=multi-user.target

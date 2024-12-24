@@ -27,6 +27,9 @@ Sample solution for [Static Site Server](https://roadmap.sh/projects/static-site
 7. Simple Monitoring \
 Sample solution for [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)
 
+8. Dummy Systemd Service \ 
+Sample solution for [Dummy Systemd Service](https://roadmap.sh/projects/dummy-systemd-service)
+
 ### Getting Started
 
 To explore a specific project:
