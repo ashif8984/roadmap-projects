@@ -19,7 +19,7 @@ cd ssh-remote-server-setup
 ```
 
 
-✅ **Create VM and SSH key pari**
+✅ **Create VM and SSH key pair**
 1. Create a Linux VM instance in Google Cloud Console (GCP).
 2. Once the VM is up and running copy its External IP (this IP will be used to SSH).
 
