@@ -7,7 +7,7 @@
 ## Basic Dockerfile
 Build a basic Dockerfile to create a Docker image.
 
-Sample solution for [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
+Sample solution for [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 ### Steps to create Dockerfile and run a docker container

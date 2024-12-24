@@ -5,7 +5,7 @@
 Setup a basic remote linux server and configure it to allow SSH.
 
 
-Sample solution for [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)
+Sample solution for [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 

@@ -4,7 +4,7 @@
 ## Log Archive Tool
 A bash script create logs(tar.gz) for a Linux server
 
-Sample solution for [server performance stats](https://roadmap.sh/projects/log-archive-tool)
+Sample solution for [server performance stats](https://roadmap.sh/projects/log-archive-tool)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 ### Steps to run the script in Linux server

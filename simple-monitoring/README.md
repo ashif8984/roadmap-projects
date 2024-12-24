@@ -5,7 +5,7 @@
 Set up a basic monitoring dashboard using Netdata.
 
 
-Sample solution for [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)
+Sample solution for [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 
@@ -75,7 +75,8 @@ In-progress
 
 
 
-🔗 References for Netdata
-[Offical Page Netdata](https://learn.netdata.cloud/docs/alerts-&-notifications/alert-configuration-reference)
+🔗 References for Netdata 
+
+[Offical Page Netdata](https://learn.netdata.cloud/docs/alerts-&-notifications/alert-configuration-reference) \
 [Documentation for Netdata](https://github.com/netdata/netdata)
 

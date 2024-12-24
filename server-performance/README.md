@@ -4,7 +4,7 @@
 ## Server Performance Stats
 A bash script to analyse basic server performance stats.
 
-Sample solution for [Server Performance Stats](https://roadmap.sh/projects/server-stats)
+Sample solution for [Server Performance Stats](https://roadmap.sh/projects/server-stats)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 ### Steps to run the script in Linux server
