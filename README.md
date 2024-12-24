@@ -21,6 +21,10 @@ Sample solution for [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-a
 5. SSH Remote Server Setup
 Sample solution for [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)
 
+6.Static Site Server
+Sample solution for [Static Site Server](https://roadmap.sh/projects/static-site-server)
+
+
 
 ### Getting Started
 
@@ -34,3 +38,4 @@ To explore a specific project:
 ### Acknowledgments
 
 These project ideas are from the DevOps roadmap from roadmap.sh.
+
