@@ -30,6 +30,10 @@ Sample solution for [Simple Monitoring](https://roadmap.sh/projects/simple-monit
 8. Dummy Systemd Service \ 
 Sample solution for [Dummy Systemd Service](https://roadmap.sh/projects/dummy-systemd-service)
 
+9. IaC on DigitalOcean\ 
+Sample solution for [IaC on DigitalOcean](https://roadmap.sh/projects/iac-digitalocean)
+
+
 ### Getting Started
 
 To explore a specific project:
