@@ -1,0 +1,15 @@
+---
+# tasks file for roles/app
+- name: Unarchive the application tar file
+  unarchive:
+    src: /tmp/app/app.tar.gz
+    dest: /tmp/app/
+    remote_src: yes
+
+
+- name: Copy "index.html" to default Nginx location
+  copy:
+    src: /tmp/app/index.html
+    dest: /var/www/html/index.html
+    mode: 0644
+    remote_src: true

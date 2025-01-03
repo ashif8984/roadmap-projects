@@ -15,23 +15,27 @@ Sample solution for [GitHub Pages Deployment](https://roadmap.sh/projects/github
 4. Basic Dockerfile \
 Sample solution for [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile)
 
-4. Nginx Log Analyser \
+5. Nginx Log Analyser \
 Sample solution for [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser)
 
-5. SSH Remote Server Setup \
+6. SSH Remote Server Setup \
 Sample solution for [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup)
 
-6. Static Site Server \
+7. Static Site Server \
 Sample solution for [Static Site Server](https://roadmap.sh/projects/static-site-server)
 
-7. Simple Monitoring \
+8. Simple Monitoring \
 Sample solution for [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard)
 
-8. Dummy Systemd Service \ 
+9. Dummy Systemd Service \
 Sample solution for [Dummy Systemd Service](https://roadmap.sh/projects/dummy-systemd-service)
 
-9. IaC on DigitalOcean\ 
+10. IaC on DigitalOcean\
 Sample solution for [IaC on DigitalOcean](https://roadmap.sh/projects/iac-digitalocean)
+
+11. Configuration Management\
+Sample solution for [Configuration Management](https://roadmap.sh/projects/configuration-management)
+
 
 
 ### Getting Started

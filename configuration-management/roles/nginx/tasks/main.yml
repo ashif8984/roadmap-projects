@@ -1,0 +1,22 @@
+---
+
+- name: Install Nginx
+  apt:
+    name: nginx
+    state: present
+
+- name: Create directory for static content
+  file:
+    path: /var/www/html/hello-world
+    state: directory
+    mode: 0755
+
+- name: Enable default Nginx website
+  file:
+    src: /etc/nginx/sites-available/default
+    path: /etc/nginx/sites-enabled/default
+    state: link
+  notify:
+    - Restart Nginx
+
+
