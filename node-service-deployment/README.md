@@ -65,3 +65,11 @@ cd iac_on_digitalocean
 [Upload ssh public key to as authorized_key using Ansible](https://www.cyberciti.biz/faq/how-to-upload-ssh-public-key-to-as-authorized_key-using-ansible/)\
 [ansible.builtin.unarchive module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/unarchive_module.html#examples)\
 [Ansible roles](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html#role-directory-structure)
+
+
+
+## Rough
+https://shreedhar1998.hashnode.dev/automation-of-nodejs-deployment-using-ansible-playbook
+https://blog.nonstopio.com/deploying-a-node-js-app-using-ansible-cfe7dfeddcac
+https://www.linkedin.com/pulse/deploying-nodejs-app-using-ansible-antoine-choula-/
+https://www.c-sharpcorner.com/article/ansible-playbook-to-install-node-js-on-ubuntu-machine/
