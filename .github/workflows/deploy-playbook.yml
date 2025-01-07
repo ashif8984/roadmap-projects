@@ -12,6 +12,7 @@ on:
 #     branches: ["main"]
 
 # this comment added just to simulate a feature change from main branch
+# this comment added just to simulate a feature change from main branch
 
 jobs:
   deploy:
