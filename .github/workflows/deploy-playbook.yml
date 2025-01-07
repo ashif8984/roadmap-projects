@@ -1,15 +1,14 @@
 name: Deploy with Ansible
 
-on:
-  pull_request:
-    branches:
-      - main
-    types: [closed]
-
 # on:
+#   pull_request:
+#     branches:
+#       - main
+#     types: [closed]
 
-#   push:
-#     branches: ["main"]
+on:
+  push:
+    branches: ["main"]
 
 # this comment added just to simulate a feature change from main branch
 # this comment added just to simulate a feature change from main branch
@@ -17,8 +16,9 @@ on:
 jobs:
   deploy:
     name: Deploy Ansible Playbook
-    if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
+    # if: github.event.pull_request.merged == true
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted
     environment: production
     steps:
       - name: Checkout repository
