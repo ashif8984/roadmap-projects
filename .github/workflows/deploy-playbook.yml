@@ -1,9 +1,10 @@
 name: Deploy with Ansible
 
 
-on:
-  push:
-    branches: ["main"]
+# Uncomment below lines: Start automatic GA run on push
+# on:
+#   push:
+#     branches: ["main"]
 
 
 jobs:
