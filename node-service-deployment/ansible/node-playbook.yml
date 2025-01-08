@@ -1,0 +1,15 @@
+---
+- name: Playbook to deploy a node server
+  hosts: all
+  become: yes
+  gather_facts: no
+  vars:
+    git_repo_url: https://github.com/ashif8984/roadmap-projects.git
+    deployment_path: /home/ashifkey/app-github/node-service-deployment/app
+    repo_branch: main
+
+  roles:
+   - role: roles/app
+     tags: app
+
+

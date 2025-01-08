@@ -37,39 +37,125 @@ Write a GitHub Action workflow that will deploy the application to the server us
 
 ## Solution
 
-**What we will be doing . . . .**
-
-1. Install ansible on a linux server
-2. Create inventory host file
-3. Test connectivity(ping-pong) on the host
-4. Create role(s) and test the working of the roles
-5. Now, create all the roles and setup each roles as required
-6. Run all the roles from main playbook file
-7. Verify application deployment is successfully.
-
-
 **Clone the repository**
 ```
 git clone https://github.com/ashif8984/roadmap-projects.git
-cd iac_on_digitalocean
+cd node-service-deployment
 ```
 
+> Note: Only completed the Task-1 i.e Manual Ansible Deployment. Task-2 is currently in-progress
 
-✅  **Install Ansible on Linux Server**
+### Task-1 Solution
+
+✅  **Create a node js webserver**
+
+1. In your local machine, lets create a simple nodejs webserver on port-9000 and test it
+2. Create a app.js file with below content and run it as-
+
+```
+# app.js
+
+const http = require('http');
+const port = 9000;
 
 
+http.createServer(function (req, res) {
+  res.end('<h1>This is a Node js server</h1>');
+}).listen(port, () => {
+    console.log(`Server running at port = ${port}`);
+  }); 
 
-### References
+# Run it
 
-[Install and configure Nginx using Ansible](https://code-maven.com/install-and-configure-nginx-using-ansible)\
-[Upload ssh public key to as authorized_key using Ansible](https://www.cyberciti.biz/faq/how-to-upload-ssh-public-key-to-as-authorized_key-using-ansible/)\
-[ansible.builtin.unarchive module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/unarchive_module.html#examples)\
-[Ansible roles](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html#role-directory-structure)
+npm init
+node app.js
+```
+3. Open the browser and type - http://localhost:9000. Make sure port-9000 is allowed in Firewall rules in server or EC2/VM instance.
+
+✅  **Create an Ansible playbook to run the webserver on remote VM**
 
 
+1. Create a playbook file at the root with following content-
 
-## Rough
-https://shreedhar1998.hashnode.dev/automation-of-nodejs-deployment-using-ansible-playbook
-https://blog.nonstopio.com/deploying-a-node-js-app-using-ansible-cfe7dfeddcac
-https://www.linkedin.com/pulse/deploying-nodejs-app-using-ansible-antoine-choula-/
-https://www.c-sharpcorner.com/article/ansible-playbook-to-install-node-js-on-ubuntu-machine/
+```
+---
+- name: Playbook to deploy a node server
+  hosts: all
+  become: yes
+  gather_facts: no
+  vars:
+    git_repo_url: https://github.com/ashif8984/roadmap-projects.git
+    deployment_path: /home/ashifkey/app-github/node-service-deployment/app
+    repo_branch: main
+
+  roles:
+   - role: roles/app
+     tags: app
+
+
+```
+
+2. Create a role with name - app and add the contents under roles/app/task/main.yml
+
+```
+
+---
+- name: Clone the code repository
+  git:
+    repo: "{{ git_repo_url }}"
+    version: "{{ repo_branch }}"
+    dest: /home/ashifkey/app-github
+    accept_hostkey: yes
+
+- name: Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install Node.js dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - curl
+    - software-properties-common
+    - build-essential
+
+- name: Install Node.js
+  apt:
+    name: nodejs
+    state: present
+
+- name: Install packages based on package.json using the npm
+  npm:
+    path: "{{ deployment_path }}"
+
+- name: Start the application 
+  command: node app.js
+  args:
+    chdir: "{{ deployment_path }}"
+  async: 1000                 
+  poll: 0 
+
+
+```
+
+3. Make sure you create hosts file under the default path
+
+```
+# /etc/ansible/hosts
+
+[hosts]
+localhost              ansible_connection=local
+```
+
+4. Run the playbook file 
+
+```
+ansible-playbook node-playbook.yml
+```
+
+5. This will start the webserver on port-9000 as mentioned in the app.js. Again open browser to validate the application running
+
+```
+http:\\<SERVER_IP>:9000
+```

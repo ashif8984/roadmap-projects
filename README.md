@@ -36,7 +36,8 @@ Sample solution for [IaC on DigitalOcean](https://roadmap.sh/projects/iac-digita
 11. Configuration Management\
 Sample solution for [Configuration Management](https://roadmap.sh/projects/configuration-management)
 
-
+12. Node.js Service Deployment\
+Sample solution for [Node.js Service Deployment](https://roadmap.sh/projects/nodejs-service-deployment)
 
 ### Getting Started
 

@@ -1,0 +1,37 @@
+---
+- name: Clone the code repository
+  git:
+    repo: "{{ git_repo_url }}"
+    version: "{{ repo_branch }}"
+    dest: /home/ashifkey/app-github
+    accept_hostkey: yes
+
+- name: Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install Node.js dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - curl
+    - software-properties-common
+    - build-essential
+
+- name: Install Node.js
+  apt:
+    name: nodejs
+    state: present
+
+- name: Install packages based on package.json using the npm
+  npm:
+    path: "{{ deployment_path }}"
+
+- name: Start the application 
+  command: node app.js
+  args:
+    chdir: "{{ deployment_path }}"
+  async: 1000                 
+  poll: 0 
+
