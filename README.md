@@ -39,6 +39,11 @@ Sample solution for [Configuration Management](https://roadmap.sh/projects/confi
 12. Node.js Service Deployment\
 Sample solution for [Node.js Service Deployment](https://roadmap.sh/projects/nodejs-service-deployment)
 
+13. Dockerized Service\
+Sample solution for [Dockerized Service](https://roadmap.sh/projects/dockerized-service-deployment)
+
+
+
 ### Getting Started
 
 To explore a specific project:

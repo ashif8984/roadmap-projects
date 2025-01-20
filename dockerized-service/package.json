@@ -1,0 +1,19 @@
+{
+  "name": "dockerized-service",
+  "version": "1.0.0",
+  "description": "Use GitHub Actions to Deploy a Dockerized Node.js Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-basic-auth": "^1.2.1",
+    "express-session": "^1.18.1",
+    "password-prompt": "^1.1.3"
+  }
+}
