@@ -1,7 +1,7 @@
 ## File Integrity Checker
 You are required to develop a tool that verifies the integrity of log files to detect tampering. This tool can be used to enhance security measures by using techniques such as file integrity monitoring and hashing to ensure that no unauthorized changes have been made to the log files.
 
-Sample solution for [File Integrity Checker](https://roadmap.sh/projects/file-integrity-check)\
+Sample solution for [File Integrity Checker](https://roadmap.sh/projects/file-integrity-checker)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 
