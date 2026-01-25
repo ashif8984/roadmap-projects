@@ -42,6 +42,9 @@ Sample solution for [Node.js Service Deployment](https://roadmap.sh/projects/nod
 13. Dockerized Service\
 Sample solution for [Dockerized Service](https://roadmap.sh/projects/dockerized-service-deployment)
 
+14. File Integrity Checker\
+Sample solution for [File Integrity Checker](https://roadmap.sh/projects/file-integrity-checker)\
+
 
 
 ### Getting Started
