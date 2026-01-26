@@ -1,9 +1,8 @@
 ## File Integrity Checker
-You are required to develop a tool that verifies the integrity of log files to detect tampering. This tool can be used to enhance security measures by using techniques such as file integrity monitoring and hashing to ensure that no unauthorized changes have been made to the log files.
-https://roadmap.sh/projects/file-integrity-checker
+The goal of this project is to take a fresh Linux server (e.g., a newly provisioned VPS from DigitalOcean, Linode, AWS, or any cloud provider) and configure it with essential security measures and settings that every production server should have. By the end, you will have a hardened server ready for deploying applications.
 
 
-Sample solution for [File Integrity Checker](https://roadmap.sh/projects/file-integrity-checker)\
+Sample solution for [Linux Server Setup](https://roadmap.sh/projects/linux-server-setup)\
 This project is part of [roadmap.sh](https://roadmap.sh/projects) DevOps projects.
 
 
@@ -68,9 +67,5 @@ sudo ufw allow <port>/<protocol>
 
 ### Steps to create cryptographic hash
 ```
-
-
-
-
 
 ✅ Result : 👉 [My Website Link](https://ashif8984.github.io/roadmap-projects/)

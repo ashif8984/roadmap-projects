@@ -45,6 +45,9 @@ Sample solution for [Dockerized Service](https://roadmap.sh/projects/dockerized-
 14. File Integrity Checker\
 Sample solution for [File Integrity Checker](https://roadmap.sh/projects/file-integrity-checker)\
 
+15. Linux Server Setup\
+Sample solution for [File Integrity Checker](https://roadmap.sh/projects/linux-server-setup)\
+
 
 
 ### Getting Started
