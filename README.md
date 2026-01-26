@@ -49,7 +49,6 @@ Sample solution for [File Integrity Checker](https://roadmap.sh/projects/file-in
 Sample solution for [Linux Server Setup](https://roadmap.sh/projects/linux-server-setup)\
 
 
-
 ### Getting Started
 
 To explore a specific project:
